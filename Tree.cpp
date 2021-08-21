@@ -134,13 +134,5 @@ void LCRS_Tree::traverseTree(Node* root)
         }
         return f;
     }
-void LCRS_Tree::deleteNode(Node *n)
-{
-    if (n == NULL)
-        return;
-    else if(!n->left_child && !n->right_sibling)
-    {
 
-    }
-}
 

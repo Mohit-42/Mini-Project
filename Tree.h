@@ -30,6 +30,6 @@ public:
     void showChildren(Node *c);
     void traverseTree(Node * root);
     bool Find ( Node * root,int a);
-    void deleteNode(Node *n);
+    
 
 };
