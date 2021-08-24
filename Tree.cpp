@@ -116,13 +116,16 @@ void LCRS_Tree::traverseTree(Node* root)
 
     }
     }
- bool LCRS_Tree::Find ( Node * root,int a)
+  bool LCRS_Tree::Find ( Node * root,int a)
     {
+
+
         while (root)
         {
         if(root->key==a)
         {
-            f=true;
+
+            b=a;
         }
         else if (root->left_child)
 
@@ -132,7 +135,14 @@ void LCRS_Tree::traverseTree(Node* root)
 
 
         }
-        return f;
+
+        if (a==b)
+        {
+           return true;
+        }
+        else
+        {
+            return false;
+        }
+
     }
-
-

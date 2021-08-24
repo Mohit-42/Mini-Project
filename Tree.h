@@ -18,7 +18,7 @@ class LCRS_Tree:public Node
 {
 private:
      int k;//represents max no. of child
-     int f=false;
+     int b=0;
      Node *ROOT;
 public:
 
